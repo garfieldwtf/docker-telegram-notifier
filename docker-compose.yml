@@ -1,6 +1,6 @@
 services:
   notifier:
-    image: lorcas/docker-telegram-notifier:latest
+    image: garfieldwtf/telegram-docker-notify:latest
     hostname: "my_host"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro # for local instance
