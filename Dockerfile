@@ -1,4 +1,4 @@
-FROM node:lts-slim
+FROM mirror.gcr.io/node:lts-slim
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
